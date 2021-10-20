@@ -2,7 +2,12 @@ def binarify(num):
   """convert positive integer to base 2"""
   if num<=0: return '0'
   digits = []
-  return ''.join(digits)
+    while num>0:
+    digits.append(num%2)
+    num=num//2
+  digits=digits[::-1]
+  return ''.join(str(e) for e in digits)
+
 
 def int_to_base(num, base):
   """convert positive integer to a string in any base"""
@@ -31,3 +36,4 @@ def romanify(num):
   result = ""
   return result
   
+binarify(200)
