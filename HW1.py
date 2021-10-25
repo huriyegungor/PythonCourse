@@ -1,3 +1,6 @@
+#Hello! I am Huriye Gungor and this is my code for CSSM 502 course's HW1.
+
+
 from random import uniform
 class Portfolio():
     def __init__(self):
