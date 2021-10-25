@@ -63,7 +63,7 @@ class Bonds(Portfolio):
     def __init__(self, ticker):
         self.ticker = ticker
         
-"""       
+
 portfolio = Portfolio() #Creates a new portfolio
 portfolio.addCash(300.50) #Adds cash to the portfolio
 s = Stock(20, "HFH") #Create Stock with price 20 and symbol "HFH"
@@ -77,4 +77,3 @@ portfolio.sellMutualFund("BRT", 3) #Sells 3 shares of BRT
 portfolio.sellStock("HFH", 1) #Sells 1 share of HFH
 portfolio.withdrawCash(50) #Removes $50
 portfolio.history() #Prints a list of all transactions ordered by time
-"""
