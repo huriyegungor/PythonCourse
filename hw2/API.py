@@ -12,5 +12,5 @@ countries = [i['id'] for i in wbdata.get_country(lendingtype="IBD")]
 indicators = {"AG.LND.FRST.K2": "forest area", "SP.DYN.LE00.IN": "life expectancy at birth"}
 df = wbdata.get_dataframe(indicators, country=countries, convert_date=True)
 
-df.to_csv('hw2/wbdata.csv')
+df.to_csv('PythonCourse/hw2/wbdata.csv')
 print(df.describe())
