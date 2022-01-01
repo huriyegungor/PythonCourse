@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
-os.chdir('C:/Users/ASUS/Courses/CSSM 502/HW')
+os.chdir('PythonCourse/hw3/')
 
 data = pd.read_csv('cses4_cut.csv')
 data.head()
